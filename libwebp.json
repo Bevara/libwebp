@@ -1,0 +1,17 @@
+{
+    "name": "libwebp",
+    "description": "WebP image decoder",
+    "filters":["webpdec"],
+    "help": "This filter decodes WebP images (lossy, lossless and alpha) using libwebp.",
+    "support": [
+        "image"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libwebp.accessor",
+    "filter_source":{
+        "webpdec" : "dec_webp.c"
+    },
+    "extension":{
+      "webp" : "img"
+    },
+    "licence_required":false
+}
