@@ -2,7 +2,7 @@ SPDX-License-Identifier: LGPL-2.1-or-later AND BSD-3-Clause
 
 libwebp - WebP decoder accessor
 
-This accessor is a combined work: its filter sources come from GPAC, Copyright (c) Telecom Paris, under LGPL-2.1-or-later, adapted by Bevara (Copyright (c) 2026 Bevara); it statically links libwebp's decoder (Google) under BSD-3-Clause, with its additional patent grant.
+This accessor is a combined work: its filter sources come from GPAC, Copyright (c) Telecom Paris, under LGPL-2.1-or-later, adapted by Bevara Technologies, LLC (Copyright (c) 2026 Bevara Technologies, LLC); it statically links libwebp's decoder (Google) under BSD-3-Clause, with its additional patent grant.
 
 The texts of these licences follow.
 
