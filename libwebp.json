@@ -1,5 +1,6 @@
 {
     "name": "libwebp",
+    "version": "1.0.1",
     "description": "WebP image decoder",
     "filters":["webpdec"],
     "help": "This filter decodes WebP images (lossy, lossless and alpha) using libwebp.",
