@@ -2,19 +2,28 @@
     "name": "libwebp",
     "version": "1.0.2",
     "description": "WebP image decoder",
-    "filters":["webpdec"],
+    "filters": [
+        "webpdec"
+    ],
     "help": "This filter decodes WebP images (lossy, lossless and alpha) using libwebp.",
     "support": [
         "image"
     ],
-    "sources":"https://bevara.ddns.net/sources/libwebp.accessor",
-    "filter_source":{
-        "webpdec" : "dec_webp.c"
+    "sources": "https://bevara.ddns.net/sources/libwebp.accessor",
+    "filter_source": {
+        "webpdec": "dec_webp.c"
     },
-    "extension":{
-      "webp" : "img"
+    "extension": {
+        "webp": "img"
     },
-    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_minimal_1.0.1",
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "royalty-free",
         "note": "WebP, royalty-free grant from Google",
